@@ -1,0 +1,2 @@
+void vRegisterUsbdCLICommands( void );
+

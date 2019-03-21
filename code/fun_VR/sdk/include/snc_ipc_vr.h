@@ -1,0 +1,61 @@
+#ifndef	SNC_IPC_H
+#define	SNC_IPC_H
+
+#define	CMD_SENT	(*(unsigned int*)0x20000000UL)
+#define	CMD_DONE	(*(unsigned int*)0x20000004UL)
+
+#define	CMDQ_BASE_ADD	0x20000008UL
+#define	CMDQ_DEPTH		8
+
+typedef enum {
+	E_NOP = 0,
+	//Audio32 APIs
+	E_AU32_ENC_INIT,
+	E_AU32_ENC_FRM,
+	E_AU32_DEC_INIT,
+	E_AU32_DEC_FRM,
+	//MP3 APIs
+	E_MP3_ENC_INIT,
+	E_MP3_ENC_FRM,
+	E_MP3_ENC_FLUSH,
+	E_MP3_DEC_INIT,
+	E_MP3_DEC_FRM,
+	//IMA APIs
+	E_IMA_ENC_INIT,
+	E_IMA_ENC_FRM,
+	E_IMA_DEC_INIT,
+	E_IMA_DEC_FRM,
+	//FFT APIs
+	E_RDFT_INI_Q31,
+	E_RDFT_Q31,
+	/* Core Additional Function */
+	E_FT_CHECK_SUM,
+	E_PROGRAM_JUMP,
+	//ALG. APIs
+	SPEECH_ENHANCE_INIT,
+	SPEECH_ENHANCE_PROCESS,
+	SPEECH_ENHANCE_GET_WRAM_SIZE,
+	SPEECH_ENHANCE_SETTINGS,	
+} CMD_TYPE;
+
+typedef struct {
+//M3_0 to M3_1
+	CMD_TYPE CMD;
+	int PARA1;
+	int PARA2;
+	int PARA3;
+	int PARA4;
+	int PARA5;
+	int PARA6;
+	int PARA7;
+	int PARA8;
+	int PARA9;
+//M3_1 to M3_0
+	int RET;
+} CMD_ENT, *pCMD_ENT;
+
+#define	GET_CMD_ENT_ADD()	((CMD_ENT*)(CMDQ_BASE_ADD+CMD_SENT*sizeof(CMD_ENT)))
+#define	SEND_CMD()			if (++CMD_SENT >= CMDQ_DEPTH)	CMD_SENT = 0;
+
+#endif
+

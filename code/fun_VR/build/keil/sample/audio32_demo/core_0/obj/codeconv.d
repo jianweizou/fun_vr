@@ -1,0 +1,11 @@
+.\obj\codeconv.o: ..\..\..\..\..\sdk\share\fat32\codeconv.c
+.\obj\codeconv.o: ..\..\..\..\..\sdk\share\fat32\SNC73_FAT.h
+.\obj\codeconv.o: ..\..\..\..\..\sdk\share\fat32\fs_config.h
+.\obj\codeconv.o: ..\..\..\..\..\sdk\share\fat32\fs_port.h
+.\obj\codeconv.o: ..\..\..\..\..\sdk\include\snc_sdcard.h
+.\obj\codeconv.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\codeconv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\codeconv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\codeconv.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\codeconv.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\codeconv.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h

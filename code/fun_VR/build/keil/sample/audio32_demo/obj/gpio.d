@@ -1,0 +1,10 @@
+.\obj\gpio.o: ..\..\..\..\sdk\driver\gpio\gpio.c
+.\obj\gpio.o: ..\..\..\..\sdk\include\snc_gpio.h
+.\obj\gpio.o: ..\..\..\..\sdk\include\snc_types.h
+.\obj\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\gpio.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\gpio.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\gpio.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\gpio.o: ..\..\..\..\sdk\driver\util\reg_util.h
+.\obj\gpio.o: ..\..\..\..\sdk\driver\gpio\register_7320.h

@@ -1,0 +1,17 @@
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\Audio_File.s
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_hi_master.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_yellow.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_white.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_night.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_middle.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_up_top.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_down_bottom.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_up.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_has_top.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_down.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_has_bottom.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_no_talk.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_hi_bai.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_talk_mode.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_sleep.mbe
+.\obj\audio_file.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\.\vr\Audio32_File\mbe\light_opend.mbe

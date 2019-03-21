@@ -1,0 +1,12 @@
+.\obj\i2s.o: ..\..\..\..\sdk\driver\i2s\i2s.c
+.\obj\i2s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\i2s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\i2s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\i2s.o: ..\..\..\..\sdk\include\snc_i2s.h
+.\obj\i2s.o: ..\..\..\..\sdk\include\snc_types.h
+.\obj\i2s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\i2s.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\i2s.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\i2s.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\i2s.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\i2s.o: ..\..\..\..\sdk\driver\i2s\register_7320.h

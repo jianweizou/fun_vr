@@ -1,0 +1,11 @@
+.\obj\spifc.o: ..\..\..\..\..\sdk\driver\spifc\spifc.c
+.\obj\spifc.o: ..\..\..\..\..\sdk\include\snc_spifc.h
+.\obj\spifc.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\spifc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\spifc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\spifc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\spifc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\spifc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\spifc.o: ..\..\..\..\..\sdk\driver\util\reg_util.h
+.\obj\spifc.o: ..\..\..\..\..\sdk\include\snc_idma.h
+.\obj\spifc.o: ..\..\..\..\..\sdk\driver\spifc\register_7320.h

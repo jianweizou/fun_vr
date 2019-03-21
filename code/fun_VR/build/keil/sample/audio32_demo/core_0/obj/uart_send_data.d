@@ -1,0 +1,11 @@
+.\obj\uart_send_data.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\uart_send_data.c
+.\obj\uart_send_data.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\uart_send_data.h
+.\obj\uart_send_data.o: ..\..\..\..\..\sdk\include\snc_uart.h
+.\obj\uart_send_data.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\uart_send_data.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\uart_send_data.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\uart_send_data.o: D:\keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\uart_send_data.o: D:\keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\uart_send_data.o: D:\keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\uart_send_data.o: ..\..\..\..\..\sdk\include\snc_log_util.h
+.\obj\uart_send_data.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h

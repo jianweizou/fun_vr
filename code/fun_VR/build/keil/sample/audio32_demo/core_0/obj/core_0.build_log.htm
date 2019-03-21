@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ssq jianwei, ssq, LIC=QF8PC-7DK6V-FIG52-92DK0-CYLSH-EAV80
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+F:\workplace\∑Á…»\code\fun_VR\build\keil\sample\audio32_demo\core_0\audio32_demo.uvproj
+Project File Date:  03/07/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'audio32_demo'
+compiling main.c...
+..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h(93): warning:  #1215-D: #warning directive: "RTOS has been disabled."
+          #warning "RTOS has been disabled."
+..\core_0\snx_fft_table.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(48): warning:  #188-D: enumerated type mixed with another type
+  enum Alg_ID dsp_alg_status = 0x08;//0x80:NLMS_ID//0x08:NR_ID
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(165): warning:  #1207-D: unknown attribute "align"
+  __align(4) BYTE memory_pool[
+EM_SIZE] __attribute__((align(0x100)));//0x18023E00
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(166): warning:  #1207-D: unknown attribute "align"
+  uint8_t model_buf[
+YB_CMD_LENGTH] __attribute__((align(0x100)));//0x18026600
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(264): warning:  #223-D: function "NR_Init" declared implicitly
+  		NR_Init();
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(272): warning:  #223-D: function "Is_ADC_Time_Up" declared implicitly
+  		if (Is_ADC_Time_Up())
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(284): warning:  #188-D: enumerated type mixed with another type
+  	AUD01_ADC_Gain_Ctrl(0x01, 0x3f, 0x0000, 0x010);
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(284): warning:  #188-D: enumerated type mixed with another type
+  	AUD01_ADC_Gain_Ctrl(0x01, 0x3f, 0x0000, 0x010);
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(284): warning:  #188-D: enumerated type mixed with another type
+  	AUD01_ADC_Gain_Ctrl(0x01, 0x3f, 0x0000, 0x010);
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(284): warning:  #188-D: enumerated type mixed with another type
+  	AUD01_ADC_Gain_Ctrl(0x01, 0x3f, 0x0000, 0x010);
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(292): warning:  #159-D: declaration is incompatible with previous "Is_ADC_Time_Up" (declared at line 272)
+  bool Is_ADC_Time_Up(void)
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(329): warning:  #223-D: function "SNX_AGC_Process_init" declared implicitly
+  	SNX_AGC_Process_init(37,	//37,AGC_gain_max, 24
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(353): warning:  #550-D: variable "ret" was set but never used
+  	uint8_t ret;
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(415): warning:  #159-D: declaration is incompatible with previous "NR_Init" (declared at line 264)
+  void NR_Init(void)
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(418): warning:  #223-D: function "Alg_Settings" declared implicitly
+  	Alg_Settings(NR_ID, NR_MIC_L, NR_gain_floor, &temp_var);
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(560): warning:  #223-D: function "Voice_Recognition_Result" declared implicitly
+  				recognition_result = Voice_Recognition_Result(j);
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(660): warning:  #159-D: declaration is incompatible with previous "Voice_Recognition_Result" (declared at line 560)
+  uint32_t Voice_Recognition_Result(uint8_t n)
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(691): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\..\..\..\project\sample\audio32_demo\core_0\main.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=64264 RO-data=104532 RW-data=544 ZI-data=119272  
+After Build - User command #1: fromelf --bin ".\obj\core_0.axf" --output ".\obj\core_0.bin"
+".\obj\core_0.axf" - 0 Error(s), 19 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
