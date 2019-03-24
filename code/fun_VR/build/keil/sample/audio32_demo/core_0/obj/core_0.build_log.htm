@@ -21,12 +21,24 @@ Target DLL:      Segger\JL2CM3.dll V2.99.23.0
 Dialog DLL:      TCM.DLL V1.14.14.0
  
 <h2>Project:</h2>
-F:\workplace\∑Á…»\code\fun_VR\build\keil\sample\audio32_demo\core_0\audio32_demo.uvproj
-Project File Date:  03/07/2019
+F:\workplace\fun_vr\code\fun_VR\build\keil\sample\audio32_demo\core_0\audio32_demo.uvproj
+Project File Date:  03/24/2019
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\keil\ARM\ARMCC\Bin'
 Build target 'audio32_demo'
+assembling rd_wr_flash.s...
+compiling audio.c...
+..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h(93): warning:  #1215-D: #warning directive: "RTOS has been disabled."
+          #warning "RTOS has been disabled."
+..\..\..\..\..\sdk\share\sonix\audio\audio.c(57): warning:  #188-D: enumerated type mixed with another type
+                AUD_Driver_Init(eSN_I2C_CH);
+..\..\..\..\..\sdk\share\sonix\audio\audio.c(58): warning:  #188-D: enumerated type mixed with another type
+                SNAUD01_MasterMode_Init(Convert_to_Aud_Sampling_Rate(eSamplingRate), MCLK_PAD_TO_PLL, 0,0,3,100,1);
+..\..\..\..\..\sdk\share\sonix\audio\audio.c(58): warning:  #188-D: enumerated type mixed with another type
+                SNAUD01_MasterMode_Init(Convert_to_Aud_Sampling_Rate(eSamplingRate), MCLK_PAD_TO_PLL, 0,0,3,100,1);
+..\..\..\..\..\sdk\share\sonix\audio\audio.c: 4 warnings, 0 errors
+compiling bsp.c...
 compiling main.c...
 ..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h(93): warning:  #1215-D: #warning directive: "RTOS has been disabled."
           #warning "RTOS has been disabled."
@@ -69,10 +81,14 @@ YB_CMD_LENGTH] __attribute__((align(0x100)));//0x18026600
 ..\..\..\..\..\project\sample\audio32_demo\core_0\main.c(691): warning:  #1-D: last line of file ends without a newline
   }
 ..\..\..\..\..\project\sample\audio32_demo\core_0\main.c: 19 warnings, 0 errors
+compiling rom_code_api.c...
+..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h(93): warning:  #1215-D: #warning directive: "RTOS has been disabled."
+          #warning "RTOS has been disabled."
+..\..\..\..\..\sdk\share\sonix\audio\rom_code_api.c: 1 warning, 0 errors
 linking...
 Program Size: Code=64264 RO-data=104532 RW-data=544 ZI-data=119272  
 After Build - User command #1: fromelf --bin ".\obj\core_0.axf" --output ".\obj\core_0.bin"
-".\obj\core_0.axf" - 0 Error(s), 19 Warning(s).
+".\obj\core_0.axf" - 0 Error(s), 24 Warning(s).
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

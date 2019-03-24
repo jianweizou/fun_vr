@@ -1,0 +1,9 @@
+.\obj\i2c.o: ..\..\..\..\..\sdk\driver\i2c\i2c.c
+.\obj\i2c.o: ..\..\..\..\..\sdk\include\snc_i2c.h
+.\obj\i2c.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\i2c.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\i2c.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\obj\i2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h
+.\obj\i2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h
+.\obj\i2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h
+.\obj\i2c.o: ..\..\..\..\..\sdk\driver\i2c\register_7320.h

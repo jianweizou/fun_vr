@@ -1,0 +1,101 @@
+#! armcc -E
+
+; ------- Configuration ------------------------------------------------------
+#define DRAM_SIZE               0               /* 0, 2MB, 8MB */
+#define _CACHE_SIZE             0x00080000      /* 512KB -> Maximun 1MB,
+                                                 * this setting MUST BE THE SAME WITH
+                                                 * "I-Cache Size" in sonix_config.h */
+
+#define _FLASH_SIZE             0x00400000      /* 4MB */
+#define _CACHE_LOAD_BASE        0x60200000      /* Load region of Execution code,
+                                                 * this setting MUST BE THE SAME WITH
+                                                 * "I-Cache Load Base" in sonix_config.h */
+
+#define CONFIG_CACHE_DEVICE     2               /* 0-None, 1-DRAM, 2-Flash, 
+                                                 * this setting MUST BE THE SAME WITH
+                                                 * "I-Cache Device" in sonix_config.h */
+
+; ------- End of Configuration -----------------------------------------------
+
+#if(CONFIG_CACHE_DEVICE == 1)
+    
+    #if (DRAM_SIZE < _CACHE_SIZE)
+        #error "Incorrect DRAM Size"
+    #endif
+    
+    #define _DRAM_SIZE          (DRAM_SIZE - _CACHE_SIZE)
+    #define _CACHE_DRAM_BASE    (DRAM_SIZE + _DRAM_SIZE)
+#else
+    #define _DRAM_SIZE          DRAM_SIZE
+#endif
+; ------- End of Definitions -------------------------------------------------
+
+; #
+; ######### PRAM Region ##################################
+; #
+LR_PRAM 0x00000000 0x00010000
+{       ; load region size_region
+
+    ER_PRAM 0x00000000 0x00010000
+    {   ; load address = execution address
+        *.o (RESET, +First)
+        *(InRoot$$Sections)
+        *lib* (+RO)
+        startup.o (+RO)
+        bsp.o (+RO)
+	main.o (+RO)
+        .ANY (+RO)
+    }
+
+    RW_SRAM0 0x18000000 0x40000
+    {   ; RW data
+        startup.o (+RW +ZI)
+        bsp.o (+RW +ZI)
+        *lib* (+RW +ZI)
+        main.o (+RW +ZI)
+        
+        .ANY (+RW +ZI)
+    }
+    
+    #if (DRAM_SIZE)
+    RW_DRAM0 0x30000000 _DRAM_SIZE
+    {
+        ;TODO: Placed the object file (+RO +RW +ZI) here to use DRAM
+    }
+    #endif
+}
+
+
+; #
+; ######### Flash Region ##################################
+; #
+
+;Flash load region with reserved cache code.
+LR_FLASH 0x60011000 (_CACHE_LOAD_BASE - 0x60011000)
+{
+    
+}
+
+
+; #
+; ######### Cache Region ##################################
+; #
+#if(CONFIG_CACHE_DEVICE != 0)
+LR_CACHE _CACHE_LOAD_BASE  _CACHE_SIZE
+{   ; load region size_region
+
+    ER_CACHE 0x10000000 OVERLAY
+    {
+        ;TODO: Placed the object file (+RO) here to use I-Cache
+    }
+    
+    #if (CONFIG_CACHE_DEVICE == 1)
+        ER_CACHE_RELOAD  _CACHE_DRAM_BASE  EMPTY  _CACHE_SIZE
+        {
+            ;This Region has been reserved for reloading cache data.
+            ;DO NOT place any item.
+        }
+    #endif
+}
+#endif
+    

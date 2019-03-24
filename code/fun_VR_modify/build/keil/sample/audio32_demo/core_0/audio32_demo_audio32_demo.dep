@@ -1,0 +1,298 @@
+Dependencies for Project 'audio32_demo', Target 'audio32_demo': (DO NOT MODIFY !)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\main.c)(0x5B7FADFA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5AB46C30)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\sdk\include\snc_audio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3enc_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3dec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\ima_codec.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\share\fatfs\ff.h)(0x5B6120B0)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOS.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h)(0x5B6120A4)
+I (..\..\..\..\..\bsp\bsp.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\bsp_setting.h)(0x5B690708)
+I (..\..\..\..\..\bsp\.\series\00m1nfg_a.h)(0x5B6120A1)
+I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\cores_share_info.h)(0x5B70F462)
+I (..\..\..\..\..\platform\freertos\include\projdefs.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portable.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\deprecated_definitions.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portmacro.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\mpu_wrappers.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\task.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\list.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\semphr.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\queue.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (..\..\..\..\..\sdk\share\fatfs\integer.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\share\fatfs\ffconf.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\include\snc_codec.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_i2s.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\include\snc_gpio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_i2s4.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_ipc.h)(0x5B7627C7)
+I (..\..\..\..\..\sdk\include\snc_spifc.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\I2C_Software_Master.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\share\fatfs\../../../sdk/share/audio/aud_driver.h)(0x5B6120B0)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\CSpotterSDKApi.h)(0x5B763C69)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\base_types.h)(0x5B5E7194)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\CSpotterSDKApi_Const.h)(0x5B5E7134)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\H\Alg_settings.h)(0x5B7E72CF)
+I (..\core_0\PLD_NR\PLDNR.h)(0x5B359865)
+I (..\core_0\Speech_Enhance.h)(0x5B63B850)
+I (..\core_0\snx_fft.h)(0x5950A99F)
+I (..\core_0\snx_fft_table.h)(0x5B2A1585)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\snx_audio_agc.c)(0x5B7A772A)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\snx_audio_agc.o --omf_browse .\obj\snx_audio_agc.crf --depend .\obj\snx_audio_agc.d)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\rd_wr_flash.s)(0x5B712FC7)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include--list .\listing\rd_wr_flash.lst --xref -o .\obj\rd_wr_flash.o --depend .\obj\rd_wr_flash.d)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\Pack_Group_1_Group_2_.bin)(0x5B557C86)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\Pack_Group_1_Group_2_EN.bin)(0x5B0BB910)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\Pack_Group_1_Group_2_JP.bin)(0x5B07B486)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\Audio_File.s)(0x5B712133)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include--list .\listing\audio_file.lst --xref -o .\obj\audio_file.o --depend .\obj\audio_file.d)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\pattern\32kbps\1113.a32)(0x5AE2D7B1)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\pattern\32kbps\1129.a32)(0x5AE2D7B1)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\pattern\24kbps\1113.a32)(0x5AE2D7B2)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\pattern\24kbps\1129.a32)(0x5AE2D7B2)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\pattern\16kbps\1129.a32)(0x5AE2D7B2)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\pattern\16kbps\1124.a32)(0x5AE2D7B3)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\DataFlashApi.c)(0x5B5E7A84)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\dataflashapi.o --omf_browse .\obj\dataflashapi.crf --depend .\obj\dataflashapi.d)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\base_types.h)(0x5B5E7194)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\DataFlashApi.h)(0x5B5E7A84)
+F (..\..\..\..\..\bsp\bsp.c)(0x5B712E61)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\bsp.o --omf_browse .\obj\bsp.crf --depend .\obj\bsp.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\bsp\bsp.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\bsp_setting.h)(0x5B690708)
+I (..\..\..\..\..\bsp\.\series\00m1nfg_a.h)(0x5B6120A1)
+I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\cores_share_info.h)(0x5B70F462)
+I (..\..\..\..\..\bsp\clk_setting/init_clk_162mhz.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\ext_memory/comm.c)(0x5B6120A1)
+I (..\..\..\..\..\bsp\ext_memory/comm.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\ext_memory/type.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\ext_memory/opi_init_v22.c)(0x5B6120A1)
+I (..\..\..\..\..\bsp\ext_memory/ddr_init.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\ext_memory/opi_init.h)(0x5B6120A1)
+I (..\core_0\core_1_img.dat)(0x5B7FADFA)
+F (..\..\..\..\..\bsp\startup.s)(0x5B69360E)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include--list .\listing\startup.lst --xref -o .\obj\startup.o --depend .\obj\startup.d)
+F (..\..\..\..\..\bsp\sonix_load_table.c)(0x5B6120A1)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\sonix_load_table.o --omf_browse .\obj\sonix_load_table.crf --depend .\obj\sonix_load_table.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+F (..\..\..\..\..\sdk\driver\codec\codec.c)(0x5B6120AA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\codec.o --omf_browse .\obj\codec.crf --depend .\obj\codec.d)
+I (..\..\..\..\..\sdk\include\snc_codec.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_audio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3enc_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3dec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\ima_codec.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\share\fatfs\ff.h)(0x5B6120B0)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOS.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h)(0x5B6120A4)
+I (..\..\..\..\..\bsp\bsp.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\bsp_setting.h)(0x5B690708)
+I (..\..\..\..\..\bsp\.\series\00m1nfg_a.h)(0x5B6120A1)
+I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\cores_share_info.h)(0x5B70F462)
+I (..\..\..\..\..\platform\freertos\include\projdefs.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portable.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\deprecated_definitions.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portmacro.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\mpu_wrappers.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\task.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\list.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\semphr.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\queue.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (..\..\..\..\..\sdk\share\fatfs\integer.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\share\fatfs\ffconf.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\include\snc_i2s.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\driver\codec\register_7320.h)(0x5B6120AA)
+I (..\..\..\..\..\sdk\include\I2C_Software_Master.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_gpio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\driver\codec\../../../sdk/share/audio/aud_driver.h)(0x5B6120B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5AB46C30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\..\..\..\..\sdk\driver\i2c_sw\I2C_Software_Master.c)(0x5B6ACADD)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\i2c_software_master.o --omf_browse .\obj\i2c_software_master.crf --depend .\obj\i2c_software_master.d)
+I (..\..\..\..\..\sdk\include\I2C_Software_Master.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\include\snc_gpio.h)(0x5B6120AE)
+F (..\..\..\..\..\sdk\driver\i2s\i2s.c)(0x5B6120AA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\i2s.o --omf_browse .\obj\i2s.crf --depend .\obj\i2s.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5AB46C30)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\sdk\include\snc_i2s.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\driver\i2s\register_7320.h)(0x5B6120AA)
+F (..\..\..\..\..\sdk\driver\i2s\i2s4.c)(0x5B6120AA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\i2s4.o --omf_browse .\obj\i2s4.crf --depend .\obj\i2s4.d)
+I (..\..\..\..\..\sdk\driver\i2s\register_7320.h)(0x5B6120AA)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\include\snc_i2s4.h)(0x5B6120AE)
+F (..\..\..\..\..\sdk\driver\gpio\gpio.c)(0x5B6120AA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\..\..\..\sdk\include\snc_gpio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\driver\util\reg_util.h)(0x5B6120AB)
+I (..\..\..\..\..\sdk\driver\gpio\register_7320.h)(0x5B6120AA)
+F (..\..\..\..\..\sdk\driver\spifc\spifc.c)(0x5B6120AB)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\spifc.o --omf_browse .\obj\spifc.crf --depend .\obj\spifc.d)
+I (..\..\..\..\..\sdk\include\snc_spifc.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\driver\util\reg_util.h)(0x5B6120AB)
+I (..\..\..\..\..\sdk\include\snc_idma.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\driver\spifc\register_7320.h)(0x5B6120AB)
+F (..\..\..\..\..\sdk\driver\idma\idma.c)(0x5B6120AB)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\idma.o --omf_browse .\obj\idma.crf --depend .\obj\idma.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\sdk\include\snc_idma.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\driver\idma\snc_dram.h)(0x5B6120AB)
+I (..\..\..\..\..\sdk\include\snc_system.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\driver\util\reg_util.h)(0x5B6120AB)
+I (..\..\..\..\..\sdk\driver\idma\register_7320.h)(0x5B6120AB)
+F (..\..\..\..\..\sdk\driver\uart\uart.c)(0x5B6120AB)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (..\..\..\..\..\sdk\include\snc_uart.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\driver\util\reg_util.h)(0x5B6120AB)
+I (..\..\..\..\..\sdk\driver\uart\register_7320.h)(0x5B6120AB)
+F (..\..\..\..\..\sdk\driver\util\log_util.c)(0x5B764392)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\log_util.o --omf_browse .\obj\log_util.crf --depend .\obj\log_util.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5AB46C30)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\driver\util\log.h)(0x5B6120AB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\sdk\include\snc_log_util.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_uart.h)(0x5B6120AE)
+F (..\..\..\..\..\sdk\share\audio\aud_driver.c)(0x5B7A7A33)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\aud_driver.o --omf_browse .\obj\aud_driver.crf --depend .\obj\aud_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5AB46C30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\sdk\include\snc_codec.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_audio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3enc_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3dec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\ima_codec.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\share\fatfs\ff.h)(0x5B6120B0)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOS.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h)(0x5B6120A4)
+I (..\..\..\..\..\bsp\bsp.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\bsp_setting.h)(0x5B690708)
+I (..\..\..\..\..\bsp\.\series\00m1nfg_a.h)(0x5B6120A1)
+I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\cores_share_info.h)(0x5B70F462)
+I (..\..\..\..\..\platform\freertos\include\projdefs.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portable.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\deprecated_definitions.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portmacro.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\mpu_wrappers.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\task.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\list.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\semphr.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\queue.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (..\..\..\..\..\sdk\share\fatfs\integer.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\share\fatfs\ffconf.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\include\snc_i2s.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B6120AE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (..\..\..\..\..\sdk\include\snc_i2c.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\I2C_Software_Master.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\snc_gpio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\share\audio\./aud_driver.h)(0x5B6120B0)
+F (..\..\..\..\..\sdk\share\audio\audio.c)(0x5B63D34A)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\..\..\..\sdk\include -I..\..\..\..\..\sdk\share\fatfs -I..\..\..\..\..\sdk\driver\util -I..\..\..\..\..\platform\freertos\include -I..\..\..\..\..\bsp -I..\..\..\..\..\config -I..\core_0 -I..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I..\..\..\..\..\project\sample\audio32_demo\core_0\H --gnu --forceinline --diag_suppress 177-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\audio.o --omf_browse .\obj\audio.crf --depend .\obj\audio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5AB46C30)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\..\..\..\..\sdk\include\snc_audio.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\audio32codec_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3enc_encoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\mp3dec_decoder.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\include\ima_codec.h)(0x5B6120AE)
+I (..\..\..\..\..\sdk\share\fatfs\ff.h)(0x5B6120B0)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOS.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h)(0x5B6120A4)
+I (..\..\..\..\..\bsp\bsp.h)(0x5B6120A1)
+I (..\..\..\..\..\bsp\bsp_setting.h)(0x5B690708)
+I (..\..\..\..\..\bsp\.\series\00m1nfg_a.h)(0x5B6120A1)
+I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\cores_share_info.h)(0x5B70F462)
+I (..\..\..\..\..\platform\freertos\include\projdefs.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portable.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\deprecated_definitions.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\portmacro.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\mpu_wrappers.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\task.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\list.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\semphr.h)(0x5B6120A4)
+I (..\..\..\..\..\platform\freertos\include\queue.h)(0x5B6120A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (..\..\..\..\..\sdk\share\fatfs\integer.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\share\fatfs\ffconf.h)(0x5B6120B0)
+I (..\..\..\..\..\sdk\include\snc_ipc.h)(0x5B7627C7)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\libCSpotterSDK_16k_24d_A_SNC7312_arm-cm3_V6.4.5_b20180726.lib)(0x5B597C15)()
+F (.\sonix_config.h)(0x5B61874F)()

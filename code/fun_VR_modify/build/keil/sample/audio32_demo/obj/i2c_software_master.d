@@ -1,0 +1,9 @@
+.\obj\i2c_software_master.o: ..\..\..\..\sdk\driver\i2c_sw\I2C_Software_Master.c
+.\obj\i2c_software_master.o: ..\..\..\..\sdk\include\I2C_Software_Master.h
+.\obj\i2c_software_master.o: ..\..\..\..\sdk\include\snc_types.h
+.\obj\i2c_software_master.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\i2c_software_master.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\i2c_software_master.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\i2c_software_master.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\i2c_software_master.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\i2c_software_master.o: ..\..\..\..\sdk\include\snc_gpio.h

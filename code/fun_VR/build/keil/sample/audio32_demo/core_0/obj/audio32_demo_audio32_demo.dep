@@ -1,5 +1,5 @@
 Dependencies for Project 'audio32_demo', Target 'audio32_demo': (DO NOT MODIFY !)
-F (..\..\..\..\..\project\sample\audio32_demo\core_0\main.c)(0x5C938E65)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\..\..\..\..\sdk\include -I ..\..\..\..\..\sdk\share\fatfs -I ..\..\..\..\..\sdk\driver\util -I ..\..\..\..\..\platform\freertos\include -I ..\..\..\..\..\bsp -I ..\..\..\..\..\config -I ..\core_0 -I ..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I ..\..\..\..\..\project\sample\audio32_demo\core_0\H -I ..\..\..\..\..\sdk\share\sonix\audio -I ..\..\..\..\..\sdk\share\thirdparty\aud_driver -I ..\..\..\..\..\sdk\share\sonix\sw_i2c -I ..\..\..\..\..\sdk\share\thirdparty\fatfs -I ..\..\..\..\..\sdk\driver\i2s -I ..\..\..\..\..\sdk\include --gnu --forceinline --diag_suppress 177-ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="521" -Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\main.c)(0x5C965F31)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\..\..\..\..\sdk\include -I ..\..\..\..\..\sdk\share\fatfs -I ..\..\..\..\..\sdk\driver\util -I ..\..\..\..\..\platform\freertos\include -I ..\..\..\..\..\bsp -I ..\..\..\..\..\config -I ..\core_0 -I ..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I ..\..\..\..\..\project\sample\audio32_demo\core_0\H -I ..\..\..\..\..\sdk\share\sonix\audio -I ..\..\..\..\..\sdk\share\thirdparty\aud_driver -I ..\..\..\..\..\sdk\share\sonix\sw_i2c -I ..\..\..\..\..\sdk\share\thirdparty\fatfs -I ..\..\..\..\..\sdk\driver\i2s -I ..\..\..\..\..\sdk\include --gnu --forceinline --diag_suppress 177-ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="521" -Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
 I (D:\keil\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (D:\keil\ARM\ARMCC\include\string.h)(0x574E3E26)
@@ -29,7 +29,7 @@ I (..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h)(0x5B507368)
 I (..\..\..\..\..\bsp\bsp.h)(0x5C7F7716)
 I (..\..\..\..\..\bsp\bsp_setting.h)(0x5C807AEA)
 I (..\..\..\..\..\bsp\.\series\lqfp144.h)(0x5B507368)
-I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\sonix_config.h)(0x5C965F31)
 I (..\core_0\cores_share_info.h)(0x5BF7D33B)
 I (..\..\..\..\..\platform\freertos\include\projdefs.h)(0x5B507368)
 I (..\..\..\..\..\platform\freertos\include\portable.h)(0x5B507368)
@@ -51,18 +51,18 @@ I (..\..\..\..\..\project\sample\audio32_demo\core_0\H\Alg_settings.h)(0x5B7E72C
 I (..\core_0\PLD_NR\PLDNR.h)(0x5B359865)
 I (..\core_0\Speech_Enhance.h)(0x5B63B850)
 I (..\core_0\snx_fft.h)(0x5950A99F)
-I (..\core_0\snx_fft_table.h)(0x5B2A1585)
+I (..\core_0\snx_fft_table.h)(0x5C965F31)
 I (..\..\..\..\..\sdk\include\snc_system.h)(0x5B921969)
 I (..\..\..\..\..\project\sample\audio32_demo\core_0\uart_send_data.h)(0x5C636F9E)
 F (..\..\..\..\..\project\sample\audio32_demo\core_0\snx_audio_agc.c)(0x5B7A772A)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\..\..\..\..\sdk\include -I ..\..\..\..\..\sdk\share\fatfs -I ..\..\..\..\..\sdk\driver\util -I ..\..\..\..\..\platform\freertos\include -I ..\..\..\..\..\bsp -I ..\..\..\..\..\config -I ..\core_0 -I ..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I ..\..\..\..\..\project\sample\audio32_demo\core_0\H -I ..\..\..\..\..\sdk\share\sonix\audio -I ..\..\..\..\..\sdk\share\thirdparty\aud_driver -I ..\..\..\..\..\sdk\share\sonix\sw_i2c -I ..\..\..\..\..\sdk\share\thirdparty\fatfs -I ..\..\..\..\..\sdk\driver\i2s -I ..\..\..\..\..\sdk\include --gnu --forceinline --diag_suppress 177-ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="521" -Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\snx_audio_agc.o --omf_browse .\obj\snx_audio_agc.crf --depend .\obj\snx_audio_agc.d)
-F (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\rd_wr_flash.s)(0x5C938D1F)(--cpu Cortex-M3 --li -g --apcs=interwork -ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521"--list .\listing\rd_wr_flash.lst --xref -o .\obj\rd_wr_flash.o --depend .\obj\rd_wr_flash.d)
+F (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\rd_wr_flash.s)(0x5C9660B0)(--cpu Cortex-M3 --li -g --apcs=interwork -ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521"--list .\listing\rd_wr_flash.lst --xref -o .\obj\rd_wr_flash.o --depend .\obj\rd_wr_flash.d)
 I (..\..\..\..\..\project\sample\audio32_demo\core_0\vr\fun_chn_pack.bin)(0x5C9203F4)
 F (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\DataFlashApi.c)(0x5B5E7A84)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\..\..\..\..\sdk\include -I ..\..\..\..\..\sdk\share\fatfs -I ..\..\..\..\..\sdk\driver\util -I ..\..\..\..\..\platform\freertos\include -I ..\..\..\..\..\bsp -I ..\..\..\..\..\config -I ..\core_0 -I ..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I ..\..\..\..\..\project\sample\audio32_demo\core_0\H -I ..\..\..\..\..\sdk\share\sonix\audio -I ..\..\..\..\..\sdk\share\thirdparty\aud_driver -I ..\..\..\..\..\sdk\share\sonix\sw_i2c -I ..\..\..\..\..\sdk\share\thirdparty\fatfs -I ..\..\..\..\..\sdk\driver\i2s -I ..\..\..\..\..\sdk\include --gnu --forceinline --diag_suppress 177-ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="521" -Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\dataflashapi.o --omf_browse .\obj\dataflashapi.crf --depend .\obj\dataflashapi.d)
 I (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\base_types.h)(0x5B5E7194)
 I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (D:\keil\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter\DataFlashApi.h)(0x5B5E7A84)
-F (..\..\..\..\..\bsp\bsp.c)(0x5B6AB874)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\..\..\..\..\sdk\include -I ..\..\..\..\..\sdk\share\fatfs -I ..\..\..\..\..\sdk\driver\util -I ..\..\..\..\..\platform\freertos\include -I ..\..\..\..\..\bsp -I ..\..\..\..\..\config -I ..\core_0 -I ..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I ..\..\..\..\..\project\sample\audio32_demo\core_0\H -I ..\..\..\..\..\sdk\share\sonix\audio -I ..\..\..\..\..\sdk\share\thirdparty\aud_driver -I ..\..\..\..\..\sdk\share\sonix\sw_i2c -I ..\..\..\..\..\sdk\share\thirdparty\fatfs -I ..\..\..\..\..\sdk\driver\i2s -I ..\..\..\..\..\sdk\include --gnu --forceinline --diag_suppress 177-ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="521" -Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\bsp.o --omf_browse .\obj\bsp.crf --depend .\obj\bsp.d)
+F (..\..\..\..\..\bsp\bsp.c)(0x5C9657A7)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\..\..\..\..\sdk\include -I ..\..\..\..\..\sdk\share\fatfs -I ..\..\..\..\..\sdk\driver\util -I ..\..\..\..\..\platform\freertos\include -I ..\..\..\..\..\bsp -I ..\..\..\..\..\config -I ..\core_0 -I ..\..\..\..\..\project\sample\audio32_demo\core_0\CSpotter -I ..\..\..\..\..\project\sample\audio32_demo\core_0\H -I ..\..\..\..\..\sdk\share\sonix\audio -I ..\..\..\..\..\sdk\share\thirdparty\aud_driver -I ..\..\..\..\..\sdk\share\sonix\sw_i2c -I ..\..\..\..\..\sdk\share\thirdparty\fatfs -I ..\..\..\..\..\sdk\driver\i2s -I ..\..\..\..\..\sdk\include --gnu --forceinline --diag_suppress 177-ID:\keil\ARM\RV31\INC-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="521" -Dprintf="printf_uart" -Dfprintf="fprintf_uart" -DUSE_SONIX_CONFIG-o .\obj\bsp.o --omf_browse .\obj\bsp.crf --depend .\obj\bsp.d)
 I (D:\keil\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (..\..\..\..\..\sdk\include\snc_types.h)(0x5B921969)
 I (D:\keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -73,7 +73,7 @@ I (D:\keil\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\..\..\..\..\bsp\bsp.h)(0x5C7F7716)
 I (..\..\..\..\..\bsp\bsp_setting.h)(0x5C807AEA)
 I (..\..\..\..\..\bsp\.\series\lqfp144.h)(0x5B507368)
-I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\sonix_config.h)(0x5C965F31)
 I (..\core_0\cores_share_info.h)(0x5BF7D33B)
 I (..\..\..\..\..\bsp\clk_setting/init_clk_162mhz.h)(0x5B507368)
 I (..\core_0\core_1_img.dat)(0x5B7FADFA)
@@ -117,7 +117,7 @@ I (..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h)(0x5B507368)
 I (..\..\..\..\..\bsp\bsp.h)(0x5C7F7716)
 I (..\..\..\..\..\bsp\bsp_setting.h)(0x5C807AEA)
 I (..\..\..\..\..\bsp\.\series\lqfp144.h)(0x5B507368)
-I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\sonix_config.h)(0x5C965F31)
 I (..\core_0\cores_share_info.h)(0x5BF7D33B)
 I (..\..\..\..\..\platform\freertos\include\projdefs.h)(0x5B507368)
 I (..\..\..\..\..\platform\freertos\include\portable.h)(0x5B507368)
@@ -160,7 +160,7 @@ I (..\..\..\..\..\platform\freertos\include\FreeRTOSConfig.h)(0x5B507368)
 I (..\..\..\..\..\bsp\bsp.h)(0x5C7F7716)
 I (..\..\..\..\..\bsp\bsp_setting.h)(0x5C807AEA)
 I (..\..\..\..\..\bsp\.\series\lqfp144.h)(0x5B507368)
-I (..\core_0\sonix_config.h)(0x5B61874F)
+I (..\core_0\sonix_config.h)(0x5C965F31)
 I (..\core_0\cores_share_info.h)(0x5BF7D33B)
 I (..\..\..\..\..\platform\freertos\include\projdefs.h)(0x5B507368)
 I (..\..\..\..\..\platform\freertos\include\portable.h)(0x5B507368)
@@ -222,4 +222,4 @@ I (..\..\..\..\..\sdk\driver\util\reg_util.h)(0x5B921969)
 I (..\..\..\..\..\sdk\driver\uart\register_7320.h)(0x5B921969)
 F (..\..\..\..\..\sdk\lib\snc7320_uart.lib)(0x5B921969)()
 F (..\..\..\..\..\sdk\lib\snc7320_util.lib)(0x5B921969)()
-F (.\sonix_config.h)(0x5B61874F)()
+F (.\sonix_config.h)(0x5C965F31)()

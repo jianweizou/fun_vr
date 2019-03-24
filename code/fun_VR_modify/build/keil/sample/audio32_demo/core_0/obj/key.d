@@ -1,0 +1,9 @@
+.\obj\key.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\key.c
+.\obj\key.o: ..\..\..\..\..\sdk\include\snc_gpio.h
+.\obj\key.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\key.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\key.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\key.o: D:\keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\key.o: D:\keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\key.o: D:\keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\key.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\key.h

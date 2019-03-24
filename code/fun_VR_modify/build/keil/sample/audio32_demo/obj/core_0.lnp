@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\obj\main.o"
+".\obj\audio_file.o"
+".\obj\startup.o"
+".\obj\bsp.o"
+".\obj\sonix_load_table.o"
+".\obj\codec.o"
+".\obj\i2c_software_master.o"
+".\obj\i2s.o"
+".\obj\gpio.o"
+".\obj\i2s4.o"
+".\obj\aud_driver.o"
+--diag_suppress 6312,6314 --strict --scatter ".\snc_linker.sct"
+--datacompressor off --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listing\core_0.map" -o .\obj\core_0.axf

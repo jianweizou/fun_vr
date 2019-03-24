@@ -1,0 +1,10 @@
+.\obj\led.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\led.c
+.\obj\led.o: ..\..\..\..\..\sdk\include\snc_gpio.h
+.\obj\led.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\led.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\led.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\led.o: D:\keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\led.o: D:\keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\led.o: D:\keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\led.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\led.h
+.\obj\led.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\motor.h

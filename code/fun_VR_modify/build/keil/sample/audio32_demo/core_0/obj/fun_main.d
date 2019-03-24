@@ -1,0 +1,12 @@
+.\obj\fun_main.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\fun_main.c
+.\obj\fun_main.o: ..\..\..\..\..\sdk\include\snc_gpio.h
+.\obj\fun_main.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\fun_main.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\fun_main.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\fun_main.o: D:\keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\fun_main.o: D:\keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\fun_main.o: D:\keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\fun_main.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\key.h
+.\obj\fun_main.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\motor.h
+.\obj\fun_main.o: ..\..\..\..\..\project\sample\audio32_demo\core_0\led.h
+.\obj\fun_main.o: ..\..\..\..\..\sdk\include\snc_sar_adc.h

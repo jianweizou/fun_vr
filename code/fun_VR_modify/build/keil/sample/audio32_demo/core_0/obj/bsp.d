@@ -1,0 +1,15 @@
+.\obj\bsp.o: ..\..\..\..\..\bsp\bsp.c
+.\obj\bsp.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h
+.\obj\bsp.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\bsp.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\bsp.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\bsp.o: D:\keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\bsp.o: D:\keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\bsp.o: D:\keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\bsp.o: ..\..\..\..\..\bsp\bsp.h
+.\obj\bsp.o: ..\..\..\..\..\bsp\bsp_setting.h
+.\obj\bsp.o: ..\..\..\..\..\bsp\.\series\lqfp144.h
+.\obj\bsp.o: ..\core_0\sonix_config.h
+.\obj\bsp.o: ..\core_0\cores_share_info.h
+.\obj\bsp.o: ..\..\..\..\..\bsp\clk_setting/init_clk_162mhz.h
+.\obj\bsp.o: ..\core_0\core_1_img.dat

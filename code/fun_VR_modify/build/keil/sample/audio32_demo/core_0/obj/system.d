@@ -1,0 +1,10 @@
+.\obj\system.o: ..\..\..\..\..\sdk\driver\system\system.c
+.\obj\system.o: ..\..\..\..\..\sdk\include\snc_types.h
+.\obj\system.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\system.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\system.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\system.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\system.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\system.o: ..\..\..\..\..\sdk\include\snc_system.h
+.\obj\system.o: ..\..\..\..\..\sdk\driver\util\reg_util.h
+.\obj\system.o: ..\..\..\..\..\sdk\driver\system\register_7320.h
